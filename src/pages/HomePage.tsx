@@ -101,13 +101,9 @@ const HomePage: React.FC = () => {
               className="order-2 lg:order-1"
             >
               <AnimatedText
-              text="Every package you receive wrapped in our Bloomwrap carries the seed of transformation – literally. What was once destined for a landfill becomes a thriving plant in your garden, a living testament to your commitment to our planet."
-  className="text-4xl md:text-5xl font-black text-black leading-tight"
-/>
-<AnimatedText
-  text="to Living Gardens"
-  className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight"
-/>
+              text="From Plastic Waste to Living Gardens"
+              className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight"
+            />
               
               <div className="space-y-6 text-lg text-gray-700 text-bold">
                 <p>
