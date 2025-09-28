@@ -101,9 +101,9 @@ const HomePage: React.FC = () => {
               className="order-2 lg:order-1"
             >
               <AnimatedText
-              text="From Plastic Waste to Living Gardens"
-              className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight"
-            />
+  text="From Plastic Waste to Living Gardens"
+  className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight whitespace-nowrap"
+/>
               
               <div className="space-y-6 text-lg text-gray-700 text-bold">
                 <p>
