@@ -87,7 +87,7 @@ const AboutUs: React.FC = () => {
             >
               <div className="transform-card protruding-image">
                 <img
-                  src="/to delight.jpg"
+                  src="/why we starrted.jpg"
                   alt="Environmental research team"
                   className="rounded-2xl premium-shadow w-full h-96 object-cover"
                 />
