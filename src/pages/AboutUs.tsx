@@ -73,7 +73,7 @@ const AboutUs: React.FC = () => {
                   We envisioned a world where every delivered package could contribute to healing our planet instead of harming it.
                 </p>
                 <p className="text-green-600 font-black text-xl">
-                  At Desmos Green, we didn't just want to reduce harm – we wanted to create positive environmental impact.
+                  At Desmos, we didn't just want to reduce harm – we wanted to create positive environmental impact.
                 </p>
               </div>
             </motion.div>
