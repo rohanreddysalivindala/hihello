@@ -113,29 +113,38 @@ const OurCommitment: React.FC = () => {
                 className="group relative perspective-container"
               >
                 <div className="transparent-card premium-shadow rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border-2 border-gray-100 hover:border-green-200 text-center transform-card protruding-image">
+                  <motion.div
                     initial={{ opacity: 0, scale: 0.3, rotateY: 180, y: 100 }}
                     whileInView={{ opacity: 1, scale: 1, rotateY: 0, y: 0 }}
-                  </div>
+                    transition={{ 
                       duration: 1.2, 
                       delay: index * 0.3,
-                    initial={{ scale: 0 }}
+                      type: "spring",
                       bounce: 0.4
+                    }}
+                    viewport={{ once: true }}
+                    className="mb-6"
+                  >
+                    <stat.icon className="h-12 w-12 mx-auto text-gray-400 mb-4" />
+                  </motion.div>
+                  
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
                     transition={{ delay: 0.5 + index * 0.1, type: "spring" }}
                     viewport={{ once: true }}
                     className={`text-4xl md:text-5xl font-black text-${stat.color}-600 mb-4`}
-
-{stat && (
-  <motion.div>
-    <div>
-      <div>{stat.percentage}</div>
-      <p className="text-gray-700 font-bold leading-tight">
-        {stat.description}
-      </p>
-    </div>
-  </motion.div>
-)}
-
-
+                  >
+                    {stat.percentage}
+                  </motion.div>
+                  
+                  <p className="text-gray-700 font-bold leading-tight">
+                    {stat.description}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
 
           <motion.div
             initial={{ opacity: 0 }}
