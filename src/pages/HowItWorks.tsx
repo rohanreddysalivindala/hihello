@@ -11,7 +11,7 @@ const HowItWorks: React.FC = () => {
       subtitle: "PLA Coating & Cellulose Base",
       description: "We start with a biodegradable cellulose base derived from plant fibers, then apply a thin coating of PLA (Polylactic Acid) made from corn starch. This combination provides the barrier properties needed for protection while ensuring complete biodegradability.",
       icon: Leaf,
-      image: "https://images.pexels.com/photos/5588603/pexels-photo-5588603.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/bio-based foundation.jpg",
       color: "green"
     },
     {
@@ -20,7 +20,7 @@ const HowItWorks: React.FC = () => {
       subtitle: "Strength from Agricultural Waste",
       description: "We incorporate biochar – a charcoal-like material made from agricultural waste – which significantly strengthens the bubble wrap while creating a nutrient-rich medium. When ground into fine powder and mixed with our base materials, biochar enhances both durability and soil enrichment properties.",
       icon: Recycle,
-      image: "https://images.pexels.com/photos/3735746/pexels-photo-3735746.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/biochar integration.jpg",
       color: "amber"
     },
     {
@@ -29,7 +29,7 @@ const HowItWorks: React.FC = () => {
       subtitle: "Providing a safe Foundation",
       description: "Organic Fertilizers are mixed inside the bubble wrap, infused with nitrogen to lay a safe foundation for the growth of plant",
       icon: Droplets,
-      image: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/nutrient enhancement.jpg",
       color: "blue"
     },
     {
@@ -38,7 +38,7 @@ const HowItWorks: React.FC = () => {
       subtitle: "From Waste to Wonder",
       description: "Once planted in soil, our Bloomwrap begins its remarkable transformation. Within 30-60 days, the biodegradable materials break down completely while embedded seeds germinate and grow into thriving plants. What was once packaging waste becomes a living contribution to your garden, creating oxygen, sequestering carbon, and providing habitat for beneficial insects.",
       icon: Seedling,
-      image: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/life trandformation.jpg",
       color: "green"
     }
   ];

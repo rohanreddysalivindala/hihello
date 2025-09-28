@@ -87,7 +87,7 @@ const AboutUs: React.FC = () => {
             >
               <div className="transform-card protruding-image">
                 <img
-                  src="https://images.pexels.com/photos/3735747/pexels-photo-3735747.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/to delight.jpg"
                   alt="Environmental research team"
                   className="rounded-2xl premium-shadow w-full h-96 object-cover"
                 />
@@ -208,7 +208,7 @@ const AboutUs: React.FC = () => {
       <div className="relative group perspective-container md:order-1">
         <div className="protruding-image transform-card relative">
           <img
-            src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/to delight.jpg"
             alt="Thriving plant life"
             className="w-full h-64 object-cover rounded-xl"
           />
