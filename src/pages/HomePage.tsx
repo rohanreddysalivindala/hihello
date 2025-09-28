@@ -102,8 +102,9 @@ const HomePage: React.FC = () => {
             >
               <AnimatedText
   text="From Plastic Waste to Living Gardens"
-  className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight whitespace-normal break-words"
+  className="text-4xl md:text-5xl font-black text-black mb-8 leading-tight break-words [word-spacing:0.25em]"
 />
+
 
               
               <div className="space-y-6 text-lg text-gray-700 text-bold">
